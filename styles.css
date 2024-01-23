@@ -1,0 +1,136 @@
+/* Encabezado */
+header {
+    background-color: #c2ddef;
+    color: #8e4444;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1%;
+}
+/* Contenedor principal */
+.cv-container {
+    max-width: 900px;
+    margin: 15px auto; /* Auto en el margen horizontal centra el elemento */
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(40, 164, 231, 0.1);
+}
+
+.header-left {
+    width: 60%;
+    
+}
+
+.header-right {
+    text-align: right;
+}
+
+/* Estilo del nombre */
+.name {
+    font-size: 44px; /* Tamaño de fuente grande */
+    color: #0c428e; /* Color de letra verde */
+    text-align: center; /* Centrar el texto */
+    margin: 0; /* Eliminar márgenes para centrar completamente */
+   
+}
+
+/* Estilo del título o grado */
+.degree {
+    font-size: 28px; /* Tamaño de fuente más pequeño */
+    color: #093280; /* Color de letra rojo */
+    text-align: center; /* Centrar el texto */
+    margin: 0; /* Eliminar márgenes para centrar completamente */
+    
+    
+}
+
+/* Foto de perfil */
+.profile-picture {
+    width: 120px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #136081; /* Borde de 3px de ancho y color azul */
+}
+
+/* Información de contacto */
+.contact-info {
+    list-style: none;
+    
+}
+/* Estilo de las imágenes de redes sociales */
+.social-icons img {
+    width: 30px; /* Ajusta el tamaño según tus preferencias */
+    height: 30px; /* Ajusta el tamaño según tus preferencias */
+    margin-right: 10px; /* Ajusta el margen entre los iconos */
+}
+/* Contenido principal */
+.main-content {
+    padding: 1px;
+    display: flex;
+}
+
+/* Sección izquierda */
+.left-content {
+    width: 60%;
+    background-color: #edeff1;
+}
+
+/* Sección derecha */
+.right-content {
+    width: 40%;
+    background-color: #c7deec;
+}
+
+/* Estilo de las listas */
+ul {
+    list-style: none;
+}
+
+/* Estilo de las habilidades y porcentajes */
+ul li {
+    margin-bottom: 8px;
+}
+
+/* Estilo de los encabezados */
+h1, h2 {
+    
+    color: #041e72;
+}
+
+/* Estilo de los párrafos */
+p {
+    margin-bottom: 10px;
+}
+
+/* Estilo de las referencias */
+h2 + p {
+    margin-top: 10px;
+}
+
+/* Estilo de las secciones de habilidades, experiencia laboral y proyectos */
+h2 {
+    border-bottom: 2px solid #3498db; /* Grosor del borde de 1 píxel */
+    width: 300px; /* Ancho del borde inferior, ajusta según sea necesario */
+    padding-bottom: 5px;
+    margin-bottom: 4px;
+}
+
+/* Estilo de la lista de referencia */
+h2 + ul {
+    margin-top: 10px;
+}
+
+/* Estilo de la lista de referencia */
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Estilo de los enlaces */
+a {
+    color: #369add;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
